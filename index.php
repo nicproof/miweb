@@ -13,15 +13,9 @@
     echo "<h2>...y este código es PHP </h2>";
     echo "<p style='color: red;'>esto es una prueba</p>";
 
-
-   
-
-    for ($i = 1; $i <= 10; $i++) {  
-
+    for ($i = 1; $i <= 10; $i++) {
         echo "8 x $i = " . (8 * $i) . "<br>";
-  
     }
-
 
     // Dibuja un rombo de asteriscos de 8 de diagonal vertical y 10 de diagonal horizontal
     $altura = 8;
@@ -36,12 +30,6 @@
         }
         echo "<br>";
     }
-    
-
-
-
-
-
 
     ?>
 </body>
