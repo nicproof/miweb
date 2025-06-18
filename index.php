@@ -13,6 +13,8 @@
     echo "<h2>...y este código es PHP </h2>";
     echo "<p style='color: red;'>esto es una prueba</p>";
 
+    ESTO ES UN CAMBIO PARA COMPROBAR SI FUNCIONA EL GIT
+
     ?>
 </body>
 
