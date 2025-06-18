@@ -14,6 +14,7 @@
     echo "<p style='color: red;'>esto es una prueba</p>";
 
     ESTO ES UN CAMBIO PARA COMPROBAR SI FUNCIONA EL GIT
+    este es otro cambio a ver si funciona el VSC
 
     ?>
 </body>
