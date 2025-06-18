@@ -13,8 +13,35 @@
     echo "<h2>...y este código es PHP </h2>";
     echo "<p style='color: red;'>esto es una prueba</p>";
 
-    ESTO ES UN CAMBIO PARA COMPROBAR SI FUNCIONA EL GIT
-    este es otro cambio a ver si funciona el VSC
+
+   
+
+    for ($i = 1; $i <= 10; $i++) {  
+
+        echo "8 x $i = " . (8 * $i) . "<br>";
+  
+    }
+
+
+    // Dibuja un rombo de asteriscos de 8 de diagonal vertical y 10 de diagonal horizontal
+    $altura = 8;
+    $anchura = 10;
+    for ($i = 0; $i < $altura; $i++) {
+        for ($j = 0; $j < $anchura; $j++) {
+            if ($j == $anchura / 2 - abs($altura / 2 - $i) || $j == $anchura / 2 + abs($altura / 2 - $i)) {
+                echo "*";
+            } else {
+                echo "&nbsp;";
+            }
+        }
+        echo "<br>";
+    }
+    
+
+
+
+
+
 
     ?>
 </body>
